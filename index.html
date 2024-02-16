@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Category tabs</title>
+</head>
+<body>
+    <div class="container">
+        <div class="tabs">
+            <button class="tablinks active" onclick="openCategory(event, 'men')">Men's Fashion</button>
+            <button class="tablinks" onclick="openCategory(event, 'women')">Women's Fashion</button>
+            <button class="tablinks" onclick="openCategory(event, 'kids')">Kids' Fashion</button>
+        </div>
+        <div id="men" class="tabcontent" style="display: block;">
+            <div class="image-grid">
+                <!-- Men's section content -->
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1672298996/photo/portrait-african-american-young-male-in-trendy-outfit-coat-with-animal-print-turtleneck-cap.jpg?s=2048x2048&w=is&k=20&c=6B2VQ8tFEgliM3kdnpt8xV235n10UGBr5J5If1SeB_0=" alt="Men's Clothing">
+                    <p>Stylish Blazer - $59.99</p>
+                </div>
+                 <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1672298996/photo/portrait-african-american-young-male-in-trendy-outfit-coat-with-animal-print-turtleneck-cap.jpg?s=2048x2048&w=is&k=20&c=6B2VQ8tFEgliM3kdnpt8xV235n10UGBr5J5If1SeB_0=" alt="Men's Clothing">
+                    <p>Stylish Blazer - $59.99</p>
+                </div>
+                 <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1672298996/photo/portrait-african-american-young-male-in-trendy-outfit-coat-with-animal-print-turtleneck-cap.jpg?s=2048x2048&w=is&k=20&c=6B2VQ8tFEgliM3kdnpt8xV235n10UGBr5J5If1SeB_0=" alt="Men's Clothing">
+                    <p>Stylish Blazer - $59.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1672298996/photo/portrait-african-american-young-male-in-trendy-outfit-coat-with-animal-print-turtleneck-cap.jpg?s=2048x2048&w=is&k=20&c=6B2VQ8tFEgliM3kdnpt8xV235n10UGBr5J5If1SeB_0=" alt="Men's Clothing">
+                    <p>Casual Shirt - $29.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1672298996/photo/portrait-african-american-young-male-in-trendy-outfit-coat-with-animal-print-turtleneck-cap.jpg?s=2048x2048&w=is&k=20&c=6B2VQ8tFEgliM3kdnpt8xV235n10UGBr5J5If1SeB_0=" alt="Men's Clothing">
+                    <p>Classic Jeans - $39.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1672298996/photo/portrait-african-american-young-male-in-trendy-outfit-coat-with-animal-print-turtleneck-cap.jpg?s=2048x2048&w=is&k=20&c=6B2VQ8tFEgliM3kdnpt8xV235n10UGBr5J5If1SeB_0=" alt="Men's Clothing">
+                    <p>Sporty Sneakers - $49.99</p>
+                </div>
+            </div>
+            <p>Shop the latest trends in men's fashion.</p>
+        </div>
+        <div id="women" class="tabcontent">
+            <div class="image-grid">
+                <!-- Women's section content -->
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=lnYEivG-BBm5FW9i7OU01W1ETAPhDJWp9i-8YiSMNns=" alt="Women's Clothing">
+                    <p>Elegant Dress - $79.99</p>
+                </div>
+                 <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=lnYEivG-BBm5FW9i7OU01W1ETAPhDJWp9i-8YiSMNns=" alt="Women's Clothing">
+                    <p>Elegant Dress - $79.99</p>
+                </div>
+                 <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=lnYEivG-BBm5FW9i7OU01W1ETAPhDJWp9i-8YiSMNns=" alt="Women's Clothing">
+                    <p>Elegant Dress - $79.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=lnYEivG-BBm5FW9i7OU01W1ETAPhDJWp9i-8YiSMNns=" alt="Women's Clothing">
+                    <p>Casual Top - $24.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=lnYEivG-BBm5FW9i7OU01W1ETAPhDJWp9i-8YiSMNns=" alt="Women's Clothing">
+                    <p>Formal Skirt - $34.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1496615764/photo/cheerful-young-woman-with-eyeglasses-smiling-and-looking-at-camera.jpg?s=1024x1024&w=is&k=20&c=lnYEivG-BBm5FW9i7OU01W1ETAPhDJWp9i-8YiSMNns=" alt="Women's Clothing">
+                    <p>Chic Accessories - $14.99</p>
+                </div>
+            </div>
+            <p>Explore a wide range of women's fashion.</p>
+        </div>
+        <div id="kids" class="tabcontent">
+            <div class="image-grid">
+                <!-- Kids' section content -->
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=p9ooltf9k3OF3Y1GPGBO13l95MVeA3VZEf4OB5ea8nE=" alt="Kids Clothing">
+                    <p>Cute Onesie - $19.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=p9ooltf9k3OF3Y1GPGBO13l95MVeA3VZEf4OB5ea8nE=" alt="Kids Clothing">
+                    <p>Adorable Dress - $29.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=p9ooltf9k3OF3Y1GPGBO13l95MVeA3VZEf4OB5ea8nE=" alt="Kids Clothing">
+                    <p>Adorable Dress - $29.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=p9ooltf9k3OF3Y1GPGBO13l95MVeA3VZEf4OB5ea8nE=" alt="Kids Clothing">
+                    <p>Adorable Dress - $29.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=p9ooltf9k3OF3Y1GPGBO13l95MVeA3VZEf4OB5ea8nE=" alt="Kids Clothing">
+                    <p>Colorful T-shirt - $14.99</p>
+                </div>
+                <div class="image-item">
+                    <img src="https://media.istockphoto.com/id/1294345604/photo/cute-little-girl-having-fun-time-in-the-nature.jpg?s=2048x2048&w=is&k=20&c=p9ooltf9k3OF3Y1GPGBO13l95MVeA3VZEf4OB5ea8nE=" alt="Kids Clothing">
+                    <p>Playful Costume - $39.99</p>
+                </div>
+            </div>
+            <p>Discover trendy and comfortable clothing for kids.</p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
